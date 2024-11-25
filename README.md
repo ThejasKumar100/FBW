@@ -32,7 +32,7 @@ The model combines two models:
    - These vectors are then classified into different emotional tones (e.g., fear, anger, trust) using **TensorFlow**.
    
 2. **Model 2: Image Classification (Visual Content)**  
-   - Images are preprocessed and passed through **Convolutional Neural Networks (CNNs)** to detect patterns, symbols, and visual rhetoric (e.g., authority figures, flags, etc.).
+   - Images are preprocessed and passed through **ResNet18** to detect patterns, symbols, and visual rhetoric (e.g., authority figures, flags, etc.).
 
 3. **Late Fusion**:  
    - The outputs from both the sentiment analysis and image classification models are merged using late fusion, improving overall accuracy.
